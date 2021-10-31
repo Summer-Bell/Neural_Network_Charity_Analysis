@@ -1,15 +1,15 @@
 # Neural Network Charity Analysis
 
 ## Neural Network Charity Analysis
-By using machine learning and neural networks Bek's created a model that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
-With over 34,000 organizations the dataset will need to utilize a binary classifier.
+By using machine learning and neural networks I created a model that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+With over 34,000 organizations the dataset needed to use a binary classifier.
 
 ### Purpose
-First the data from [charity_data.csv](Resources/charity_data.csv) will need to be preprocessed so that it can be used in a neural network model.
-Next the deep learning model was designed to create a binary classification model.
-The code for this model is in [AlphabetSoupCharity.ipynb](AlphabetSoupCharity.ipynb).
+First the data from [charity_data.csv](Resources/charity_data.csv) needed to be preprocessed so that it could be used in a neural network model.
+Next the deep learning model was designed.
+The code for this binary classification model is in [AlphabetSoupCharity.ipynb](AlphabetSoupCharity.ipynb).
 The next step involved compiling, training and evaluating the model.
-Finally the model will be optimized with the goal of reaching 75% accuracy.
+Finally the model was optimized with the goal of reaching 75% accuracy.
 My three attempts to optimize data are in [AlphabetSoupCharity_Optimization.ipynb](AlphabetSoupCharity_Optimization.ipynb).
 
 
@@ -26,9 +26,9 @@ My three attempts to optimize data are in [AlphabetSoupCharity_Optimization.ipyn
 		
 -  Compiling, Training, and Evaluating the Model
 	- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-		- My original model contained two layers with the activation function "relu." 
+		- My original model contained two layers with the activation function relu. 
 		- The first layer had 80 neurons and the second layer had 30 neurons.
-		- My output layer was "sigmoid."
+		- My output layer was sigmoid.
 		- I choose the sigmoid function because it is effectively a logistic regression model.
 	
 	- Were you able to achieve the target model performance?
@@ -44,6 +44,7 @@ Creating successful deep learning models does take trail and error.
 The changes I made to my model did not increase the accuracy of the model.
 My original model had the best accuracy score of 70%.
 I would remove more noisy variables and continue to adjust the number of neurons in the two hidden layer without changing the activation functions to improve accuracy.
+In addition I would increase the number of EPOCH's.
 
 
 
